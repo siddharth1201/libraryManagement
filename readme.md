@@ -76,6 +76,9 @@ src/main/java/com/yourname/librarysystem/
     # From the project's root directory
     mkdir bin
     javac -d bin $(find src -name "*.java")
+
+    # for windows 
+    javac -d bin -sourcepath src src\main\java\com\siddharth\librarysystem\Main.java
     ```
     *(Note: On Windows, you may need to use an alternative command to find all Java files)*
 
